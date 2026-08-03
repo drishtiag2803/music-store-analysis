@@ -43,7 +43,7 @@ group by c.customer_id
 order by total_spent desc
 limit 1;
 
---Q6 Write a query to return the email, first name, last name, & genre of all rock music
+--Q6 Write a query to return the email, first name, & last name of all rock music
 --listeners. Return your list ordered alphabetically by email starting with A.
 
 select distinct c.email, c.first_name, c.last_name
